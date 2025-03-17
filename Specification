@@ -1,1 +1,48 @@
+## Use Case: Register Account
+
+**Actor**: Student
+
+**Description**: Allows a student to create a new account in the system.
+
+**Preconditions**: Student has not registered before.
+
+**Postconditions**: Student account is created and active.
+
+**Basic Flow**:
+1. Student navigates to the registration page.
+2. Enters required information (e.g., name, email, password).
+3. Submits the form.
+4. System validates and creates the account.
+5. Confirmation message is displayed.
+
+**Alternative Flows**:
+- **A1**: If the email is already registered:
+  - A1.1: System displays an error message indicating the email is already in use.
+  - A1.2: Student is prompted to use a different email or recover the existing account.
+
+- **A2**: If mandatory information is missing:
+  - A2.1: System highlights the missing fields.
+  - A2.2: Student is prompted to complete all required fields before resubmitting.
+
+- **A3**: If the password does not meet security requirements:
+  - A3.1: System displays a message indicating password criteria (e.g., minimum length, character requirements).
+  - A3.2: Student is prompted to enter a compliant password.
+
+**Exceptions**:
+- **E1**: System encounters an error during account creation:
+  - E1.1: System logs the error.
+  - E1.2: Student is notified of the issue and advised to try again later.
+
+**Assumptions**:
+- Students have access to the internet and can navigate to the registration page.
+- The system has a user-friendly interface guiding students through the registration process.
+
+**Notes**:
+- Ensure that the registration process complies with data protection regulations.
+- Implement CAPTCHA or similar mechanisms to prevent automated registrations.
+
+**Related Use Cases**:
+- Login
+- Recover Account
+- Update Profile
 
