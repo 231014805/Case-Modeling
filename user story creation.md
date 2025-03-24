@@ -1,28 +1,4 @@
-# Assignment 6: Agile User Stories, Backlog, and Sprint Planning for the Student Counseling System
-
-## Objective
-
-Apply Agile methodology by translating system requirements and use cases into user stories, creating a prioritized product backlog, and planning an initial sprint for the Student Counseling System.
-
-## Scenario
-
-As the project transitions into Agile development, the roles of Product Owner and Scrum Master are undertaken to:
-
-1. Break down requirements into actionable user stories.
-2. Organize and prioritize work into a backlog.
-3. Plan the first sprint to deliver a Minimum Viable Product (MVP).
-
-## Tasks
-
-### 1. User Story Creation (30 Marks)
-
-**Task:**
-
-Convert functional requirements and use cases into user stories using the format: "As a [role], I want [action] so that [benefit]." Ensure stories adhere to the INVEST criteria (Independent, Negotiable, Valuable, Estimable, Small, Testable).
-
-**Deliverables:**
-
-A table of user stories with corresponding acceptance criteria and priority levels.
+### User Stories Table
 
 | Story ID | User Story                                                                                       | Acceptance Criteria                                                                                      | Priority |
 |----------|--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------|
@@ -35,15 +11,7 @@ A table of user stories with corresponding acceptance criteria and priority leve
 | US007    | As an administrator, I want to manage user accounts so that the system maintains integrity.      | Admin panel to activate/deactivate accounts; audit trail of account changes maintained.                  | High     |
 | US008    | As an administrator, I want to generate usage reports so that I can monitor system performance.  | Reports include metrics on session bookings, cancellations, and user activity; exportable in CSV format. | Medium   |
 
-### 2. Product Backlog Creation (30 Marks)
-
-**Task:**
-
-Compile user stories into a prioritized product backlog using the MoSCoW prioritization method (Must-have, Should-have, Could-have, Won’t-have). Include effort estimates (e.g., story points 1–5).
-
-**Deliverables:**
-
-A backlog table with justifications for prioritization.
+### Product Backlog
 
 | Story ID | User Story                                                                                      | Priority    | Effort Estimate | Dependencies | Justification                                                                                           |
 |----------|-------------------------------------------------------------------------------------------------|-------------|-----------------|--------------|----------------------------------------------------------------------------------------------------------|
@@ -56,23 +24,7 @@ A backlog table with justifications for prioritization.
 | US007    | As an administrator, I want to manage user accounts so that the system maintains integrity.     | Must-have   | 4               | None         | Critical for system security and user management.                                                        |
 | US008    | As an administrator, I want to generate usage reports so that I can monitor system performance. | Should-have | 3               | US007        | Assists in evaluating system effectiveness and identifying areas for improvement.                         |
 
-*Justification for Prioritization:*
-
-- **Must-have** stories are fundamental to the system's core functionality and user access.
-- **Should-have** stories enhance usability and provide important features that improve user experience.
-- **Could-have** stories offer additional value but are not critical for the MVP.
-
-### 3. Sprint Planning (30 Marks)
-
-**Task:**
-
-Define a 2-week sprint goal and select 4–6 user stories from the backlog for the sprint. Break stories into tasks.
-
-**Sprint Goal:**
-
-Establish the foundational user management and session booking functionalities to enable students to register, log in, and schedule counseling sessions.
-
-**Sprint Backlog:**
+### Sprint Backlog
 
 | Task ID | Task Description                                             | Assigned To | Estimated Hours | Status  |
 |---------|--------------------------------------------------------------|-------------|-----------------|---------|
@@ -81,23 +33,3 @@ Establish the foundational user management and session booking functionalities t
 | T003    | Create counselor availability management interface.          | Dev Team    | 7               | To Do   |
 | T004    | Develop session booking system for students.                 | Dev Team    | 10              | To Do   |
 | T005    | Set up admin panel for user account management.              | Dev Team    | 9               | To Do   |
-
-*Selected User Stories for Sprint:*
-
-- US001: As a student, I want to register for an account so that I can access counseling services.
-- US002: As a student, I want to log in securely so that my personal information is protected.
-- US003: As a student, I want to book a counseling session so that I can receive timely support.
-- US005: As a counselor, I want to manage my availability so that students can book sessions accordingly.
-- US007: As an administrator, I want to manage user accounts so that the system maintains integrity.
-
-### 4. Documentation & Clarity (10 Marks)
-
-**Task:**
-
-Compile all artifacts into an Agile Planning Document. Ensure traceability to prior assignments by mapping user stories to requirements.
-
-**Deliverables:**
-
-1
-::contentReference[oaicite:0]{index=0}
- 
